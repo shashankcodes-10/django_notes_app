@@ -12,7 +12,7 @@ services:
             - django
           restart: always
       django:
-          image: shashank971/notes-app:latest
+          image: shashank971/note-app:latest
           container_name: django
           networks:
             - threetier
