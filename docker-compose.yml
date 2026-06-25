@@ -12,8 +12,8 @@ services:
             - django
           restart: always
       django:
+          image: shashank971/notes-app:latest
           container_name: django
-          build: .
           networks:
             - threetier
           env_file: 
